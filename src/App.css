@@ -1,0 +1,372 @@
+.header {
+  background-color: #c3d943;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-section img {
+  height: 50px;
+}
+
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  position: relative;
+}
+
+/* About Us Dropdown */
+.about-us {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.dropdown a:last-child {
+  border-bottom: none;
+}
+
+/* Courses tab */
+.courses-tab {
+  color: rgb(14, 12, 12);
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Dropdown content */
+.courses-dropdown {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 600px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 40px; 
+}
+
+/* Table layout */
+.courses-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.courses-table th,
+.courses-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.courses-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.r-1, .r-2, .r-3, .r-4, .r-5, .r-6, .r-7 {
+  background-color:  #c3d943;
+}
+
+.courses-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.courses-table tr:hover {
+  background-color: #b79ced;
+}
+
+/* Hide dropdown initially */
+.courses-dropdown {
+  display: none;
+}
+
+/* Show dropdown on hover */
+.courses-tab:hover .courses-dropdown {
+  display: block;
+}
+
+
+
+/* CDI Skill Dropdown */
+.cdi-skill {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.dropdown a:last-child {
+  border-bottom: none;
+}
+
+/* Admission Dropdown */
+.admission {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown a:hover {
+  background-color: #99d208;
+}
+
+.dropdown a:last-child {
+  border-bottom: none;
+}
+
+.academics-page {
+  margin-left: 200px; 
+  margin-right: 200px; 
+  padding: 10px; 
+  text-align: justify; 
+  line-height: 1.5; 
+}
+
+
+/* CDI Skill Dropdown */
+.committees {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.dropdown a:last-child {
+  border-bottom: none;
+}
+
+/* Styles for Career Page */
+.career-page {
+  padding: 50px;
+  background-color: #f3f3f3;
+  text-align: left;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.career-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.career-page p {
+  font-size: 18px;
+  color: #333;
+}
+
+.job-opening {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+.job-opening h2 {
+  font-size: 24px;
+}
+
+.job-opening p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+/* Styles for the Contact Us page */
+.contact-us-page {
+  padding: 50px;
+  background-color: #f3f3f3;
+  text-align: center;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.contact-us-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-us-page p {
+  font-size: 18px;
+  color: #333;
+}
+
+/* UGC Section */ 
+.ugc-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+ /* background-image: url('background-image-url'); */
+  background-size: cover;
+  color: white;
+}
+
+.ugc-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.degree-options h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.admission-date button {
+  background-color: #c3c3c3;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* Form Section */
+.form-section {
+  background-color: #210256;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  max-width: 400px;
+}
+
+.form-section h3 {
+  margin-bottom: 15px;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section input, .form-section select {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-section button {
+  background-color: #c3d943 ;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Recognised & Accredited Section */
+.recognised-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+
+.recognised-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.recognised-section .logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recognised-section .logos img {
+  height: 80px;
+  margin: 0 15px;
+}    
